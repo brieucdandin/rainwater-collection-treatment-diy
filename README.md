@@ -48,6 +48,7 @@ TODO: power supply
 
 #### 2.4.1. Language
 The code is almost entirely in the latest stable minor core Python version that was compatible with the libraries used at the time of their inclusion.
+SQLite is also used for logs, as well as for outboxes and inboxes in each microcomputer (*cf.* mention of transactional pattern for inter-facilities communication below).
 
 #### 2.4.2. Intra-facilities communication
 Within each facility, the microcomputer communicates with the mnicrocontrollers using Modbus and RS-485.
